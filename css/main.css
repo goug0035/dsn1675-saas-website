@@ -1,0 +1,50 @@
+.dark {
+  background-color: darkgrey;
+}
+
+.light {
+  background-color: lightgrey;
+}
+
+.masthead {
+  text-align: center;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited,
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+  background-color:darkgray;
+  color: white;
+}
+
+.footer {
+  text-align: center;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .nav li {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
