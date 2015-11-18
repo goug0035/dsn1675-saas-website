@@ -6,10 +6,6 @@
   background-color: lightgrey;
 }
 
-.masthead {
-  text-align: center;
-}
-
 .nav a,
 .nav a:link,
 .nav a:visited {
@@ -28,9 +24,27 @@
   color: white;
 }
 
-.footer {
+.banner {
   text-align: center;
+  position: relative;
 }
+
+.banner-img {
+  padding-top: 92.3%;
+  background-image: url("http://placehold.it/520x480");
+  background-size: cover;
+}
+
+.intro {
+  position: absolute;
+  bottom: 10%;
+}
+
+.intro a {
+  background-color: white;
+  color: black;
+}
+
 
 @media only screen and (min-width: 25em) {
 
@@ -42,9 +56,22 @@
 
 @media only screen and (min-width: 38em) {
 
+  .banner-img {
+    padding-top: 56.25%;
+    background-image: url("http://placehold.it/1920x1080");
+    background-size: cover;
+  }
+
+  .intro {
+    bottom: 20%;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
+
+  .banner {
+    text-align: left;
+  }
 
 }
