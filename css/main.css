@@ -6,6 +6,12 @@
   background-color: lightgrey;
 }
 
+.button {
+  background-color: grey;
+  border: black;
+  text-align: center;
+}
+
 .nav a,
 .nav a:link,
 .nav a:visited {
@@ -38,11 +44,6 @@
 .intro {
   position: absolute;
   bottom: 10%;
-}
-
-.intro a {
-  background-color: white;
-  color: black;
 }
 
 
