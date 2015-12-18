@@ -1,15 +1,38 @@
 .dark {
-  background-color: darkgrey;
+  background-color: #91A995;
 }
 
-.light {
+.logo {
+  max-height: 6rem;
+}
+
+.signup {
+  background-image: image("image/signup-banner.jpg");
   background-color: lightgrey;
 }
 
-.button {
-  background-color: grey;
-  border: black;
+.thanks {
+  color: white;
   text-align: center;
+}
+
+.button {
+  background-color: #91a995;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.banner {
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.intro {
+  position: absolute;
+  bottom: 10%;
 }
 
 .nav a,
@@ -26,24 +49,8 @@
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-  background-color:darkgray;
+  background-color:#91a995;
   color: white;
-}
-
-.banner {
-  text-align: center;
-  position: relative;
-}
-
-.banner-img {
-  padding-top: 92.3%;
-  background-image: url("http://placehold.it/520x480");
-  background-size: cover;
-}
-
-.intro {
-  position: absolute;
-  bottom: 10%;
 }
 
 
@@ -59,8 +66,6 @@
 
   .banner-img {
     padding-top: 56.25%;
-    background-image: url("http://placehold.it/1920x1080");
-    background-size: cover;
   }
 
   .intro {
